@@ -2,11 +2,19 @@ body {
     background-color: #464646;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-p {
+p, ul, ol, dl {
     color: rgb(210, 210, 210);
     font-size: 16px;
 }
 
-h2, h3, h4, h5, h6, ul {
+h1 {
+    color:rgb(143, 249, 86);
+}
+
+h2, h3, h4, h5, h6 {
     color: rgb(200, 255, 178);
+}
+
+a {
+    color: #FFEAA7;
 }
