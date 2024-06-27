@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/b/b8/Blue_cup_of_coffee.svg" type="image/x-icon">
+
+
+</head>
+<body>
+    <h1>Imágenes</h1>
+    <h2>Tipos de imágenes:</h2>
+    <h3>Imágenes de mapa de bits</h3>
+    <ul>
+        <li>bmp</li>
+        <li>jpg</li>
+        <li>png</li>
+    </ul>
+<h3>Imágenes vectoriales</h3>
+<ul>
+    <li>svg</li>
+</ul>
+<!-- <img src="img/Blue_cup_of_coffee.svg" alt="Taza de café"> -->
+ <!-- <img src="img/taza_cafe_leche.avif" alt="Sirviendo una taza de café con leche" width="100%"> -->
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/19N1rUBA-Qk?si=UHbCSUuE5FWMZ9-m&amp;controls=0" title="Precioso Pug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <picture>
+    <source srcset="img/taza_cafe_leche_450.avif" media="(max-width: 450px)">
+    <source srcset="img/taza_cafe_leche_900.avif" media="(max-width: 900px)">
+    <source srcset="img/taza_cafe_leche_1350.avif" media="(max-width: 1350px)">
+    <img src="img/taza_cafe_leche_2000.avif" alt="Sirviendo una taza de café con leche" width="100%">
+ </picture>
+
+ <video controls loop width="100%" muted>
+    <source media="(max-width:640px)" src="assets/35427-407130886_tiny.mp4">
+    <source media="(min-width:640px)" src="assets/180682-864967693_tiny.mp4">
+ </video>
+
+ 
+
+</body>
+</html>
